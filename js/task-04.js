@@ -9,12 +9,12 @@ function updateValue() {
 
 decrementBtn.addEventListener('click', onDecrementClick);
 function onDecrementClick() {
-    counterValue+=1;
+    counterValue-=1;
     updateValue()
 }
 
 incrementBtn.addEventListener('click', onIncrementClick);
 function onIncrementClick() {
-    counterValue-=1;
+    counterValue+=1;
     updateValue()
 }
